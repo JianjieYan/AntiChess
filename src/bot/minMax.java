@@ -171,7 +171,7 @@ public class minMax {
 			
 		}
 	
-		return s;
+		return min;
 	}
 	public static int thirdLayer(Piece chessBoard [][],String moves) {
 		
@@ -202,7 +202,7 @@ public class minMax {
 			Compile.undoMoveWhite();
 		}
 		
-		return s;
+		return max;
 	}
 	public static int forthLayer(Piece chessBoard [][],String moves) {
 		String [] movements=moves.split(" ");
